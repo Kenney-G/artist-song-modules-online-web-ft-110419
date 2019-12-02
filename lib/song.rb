@@ -15,7 +15,7 @@ class Song
       include Paramable::InstanceMethods
       
   def self.all
-    @@all
+    @@songs
   end
 
   # def name=(name)
