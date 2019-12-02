@@ -3,7 +3,7 @@ require './lib/concerns/memorable.rb'
 require './lib/concerns/findable.rb'
 require './lib/concerns/paramable.rb'
 
-@@all = []
+@@songs = []
 
 class Song
   attr_accessor :name
